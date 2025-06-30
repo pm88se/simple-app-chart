@@ -1,0 +1,19 @@
+image:
+  repository: pavlom88/simple-docker-app
+  tag: latest
+  pullPolicy: Always
+
+serviceAccount:
+  create: false
+  name: ""
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetPort: 3000
+
+ingress:
+  enabled: false
+
+autoscaling:
+  enabled: false
