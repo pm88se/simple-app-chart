@@ -1,6 +1,6 @@
 image:
   repository: pavlom88/simple-docker-app
-  tag: latest
+  tag: v1-1751384859
   pullPolicy: Always
 
 serviceAccount:
